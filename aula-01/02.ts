@@ -1,8 +1,10 @@
 function converter(vet: number[]): string[] {
   const res = [];
+
   for (let i = 0; i < vet.length; i++) {
     res[i] = '' + vet[i];
   }
+
   return res;
 }
 const vetor = [5, 3, 1, 8, 2];
